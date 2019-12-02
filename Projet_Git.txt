@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# affichage de l'addresse ip
+# affichage de l'adresse ip
+# travailler sur cette partie
 
 
 
