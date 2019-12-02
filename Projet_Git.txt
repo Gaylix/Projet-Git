@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# affichage de l'addresse ip
+
+
+
+# création d'un utilisateur
+
+
+
+# partie ssh
+
