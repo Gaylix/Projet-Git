@@ -7,7 +7,10 @@
 # création d'un utilisateur
 # travailler sur cette partie
 
-useradd -g sudo -d /home/Nicolas -p X Nicolas -m
+useradd -g sudo -d /home/Nicolas -p $(echo mypasswd | openssl passwd -1 -stdin) Nicolas -m
+
+# génération de la clé ssh
+
 
 # partie ssh
 
