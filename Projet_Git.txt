@@ -3,6 +3,8 @@
 # affichage de l'adresse ip
 # travailler sur cette partie
 
+hostname -I		# affichage de l'adresse sur le terminal
+
 
 
 # création d'un utilisateur
