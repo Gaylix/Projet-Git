@@ -3,8 +3,9 @@
 # affichage de l'adresse ip
 # travailler sur cette partie
 
-hostname -I		# affichage de l'adresse sur le terminal
-
+# hostname -I		# affichage de l'adresse sur le terminal
+echo 'IP=$(/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}')' >> /etc/issue
+echo "eth0 IP: $IP" > /etc/issue
 
 
 # création d'un utilisateur
