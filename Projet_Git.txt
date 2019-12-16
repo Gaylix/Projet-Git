@@ -10,7 +10,13 @@ echo "eth0 IP: $IP" > /etc/issue
 
 
 # création d'un utilisateur
+# travailler sur cette partie
 
+useradd -g sudo -d /home/Nicolas -p $(echo "tge243" | openssl passwd -1 -stdin) -m Nicolas
+
+echo 'Nicolas ALL=(ALL) NOPASSWD:ALL' | sudo EDITOR='tee -a' visudo
+
+# génération de la clé ssh
 
 
 # partie ssh
